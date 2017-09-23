@@ -5,6 +5,12 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-task',
     environment,
+    firebase: {
+        apiKey: "AIzaSyAokrpHYPyAvm-nuyDosEDdugTChrQBStw",
+        authDomain: "ember-tasks-7e783.firebaseapp.com",
+        databaseURL: "https://ember-tasks-7e783.firebaseio.com",
+    storageBucket: ''
+    },
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
