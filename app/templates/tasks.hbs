@@ -7,5 +7,6 @@
         <small>Due: {{date-format task.date}}</small>
         <p>{{task.description}}</p>
 
+        <button type="button" name="button" {{action 'deleteTask' task.id}} class="btn btn-danger">Delete</button>
     </div>
 {{/each}}
